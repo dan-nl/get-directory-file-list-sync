@@ -12,11 +12,7 @@ function getDirectoryFileListSync( directory ) {
     ( item ) => {
       var stats = fs.statSync( path.join( directory, item ) )
 
-      if ( stats.isFile() ) {
-        return item
-      }
-
-      return false
+      return stats.isFile()
     }
   )
 }
