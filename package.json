@@ -1,0 +1,21 @@
+{
+  "name": "get-directory-file-list-sync",
+  "version": "0.1.0",
+  "description": "a directory helper that returns an array of the files found in a directory ( not recursive )",
+  "author": "dan entous",
+  "license": "MIT",
+  "main": "src",
+  "keywords": [
+    "directory",
+    "files",
+    "fs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/get-directory-file-list-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dan-nl/get-directory-file-list-sync/issues"
+  },
+  "homepage": "https://github.com/dan-nl/get-directory-file-list-sync#readme"
+}
