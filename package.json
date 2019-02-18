@@ -17,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/dan-nl/get-directory-file-list-sync/issues"
   },
-  "homepage": "https://github.com/dan-nl/get-directory-file-list-sync#readme"
+  "homepage": "https://github.com/dan-nl/get-directory-file-list-sync#readme",
+  "scripts": {
+    "cover:browser": "npm test -- --coverage-report=lcov",
+    "cover:cli": "npm test -- --cov",
+    "cover:travis": "npm test -- --coverage-report=lcov --no-browser",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "test": "tap test/*.test.js --reporter spec"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "tap": "^12.5.3"
+  }
 }
