@@ -1,6 +1,6 @@
 {
   "name": "get-directory-file-list-sync",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "a directory helper that returns an array of the files found in a directory ( not recursive )",
   "author": "dan entous",
   "license": "MIT",
